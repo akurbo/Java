@@ -1,0 +1,10 @@
+public class Task7 {
+    public static void main(String[] args) {
+        System.out.println(convertCelsiusToFahrenheit(41));
+    }
+
+    public static double convertCelsiusToFahrenheit(int TC) {
+        double TF = 1.8 * TC + 32;
+        return TF;
+    }
+}
