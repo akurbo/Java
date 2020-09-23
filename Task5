@@ -1,0 +1,13 @@
+public class Task5 {
+    public static void main(String[] args) {
+        int a = 3;
+        int b = 9;
+
+        System.out.print(b);
+        System.out.print(" умножить ");
+        System.out.print("на ");
+        System.out.print(a);
+        System.out.print(" равно ");
+        System.out.print((int) Math.pow(3, 3));
+    }
+}
